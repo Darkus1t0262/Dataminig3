@@ -1,0 +1,14 @@
+# Ignore virtual environments
+env/
+venv/
+Lib/
+
+# Ignore large TensorFlow and model files
+*.pyd
+*.h5
+*.keras
+*.pb
+
+# Ignore dataset files
+*.csv
+*.xlsx
